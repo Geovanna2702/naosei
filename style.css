@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=RobotoEdisplay=swap');
          *{
          margin:0;
          padding: 0;
@@ -23,7 +20,7 @@ header {
           line-height: 30px; /* eapaçamento da linha do texto */
           margin: 0 16px; /* espaçamento entre os textos */
           text-decoration: none; /*retirar decoração do texto */
-          font-family: "Roboto", sans-serif; /* a fonte escolhida pro menu */
+          font-family: 'Roboto', sans-serif; /* a fonte escolhida pro menu */
        }
        header div a:hover { /* seleção do modo quando o mouse passar por cima "hover"*/
            color: green; /* mudar para cor verde*/
@@ -31,20 +28,3 @@ header {
         }
       
      
-    
-    </style>
-     
-<head>
-    <title>Geovanna santos</title>
-     
-</head>
-<body> 
-    <header>
-       <div class="link">
-        <a href="HTTPS://www.github.com/Geovanna2702">Github</a>
-        <a href="HTTPS:/www.instagram.com/in/fernando-de-castro-309352233/">Linkedin</a>
-
-       </div>
-    </header>
-</body>
-</html>
