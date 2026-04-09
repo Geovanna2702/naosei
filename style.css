@@ -1,7 +1,7 @@
  
         
 body 
-      {background-color: rgb(77, 75, 75);}
+      {background-color: rgb(0, 0, 0);}
 header {
     padding: 32px;
     border-bottom: 1px solid var(--subcor);
@@ -11,7 +11,7 @@ header {
         text-align: center; /* Alinhamento no meio do header */
        }
        header div a {
-          color: rgb(253, 206, 206); /* a cor do texto */
+          color: rgb(255, 255, 255); /* a cor do texto */
           font-size: 20px; /* tamanho da fonte */
           line-height: 30px; /* eapaçamento da linha do texto */
           margin: 0 16px; /* espaçamento entre os textos */
@@ -27,13 +27,14 @@ header {
        }
        #box img {
         border-radius: 50%; /* adiciona uma borda redonda a imagem/ */
-        border: 5px solid rgb(255, 232, 104); /* adiciona uma cor a borda da imagem*/
+        border: 5px solid rgb(255, 255, 255); /* adiciona uma cor a borda da imagem*/
         margin-bottom: 32px; /* distancia da margem inferior dos outros elementos*/
        }
            #box h1 {
             font-size: 42px; /* tamanho da fonte */
             line-height: 52px; /* espaçamento da linha do texto */
             font-weight: bold; /* tipo fa fonte */
+            color: rgb(255, 0, 242);
            }
            #box h2 {
            font-size: 24px; /* tamanho da fonte */
@@ -41,6 +42,7 @@ header {
            font-weight: normal;  /* tipo da fonte */
            margin-top: 8px; /* distancia da margem superior dos outros elementos*/
            opacity: 0.8; /* transparencia do elemento*/
+           color: rgb(255, 0, 242);
                                              
            }
            #box p {
@@ -48,15 +50,16 @@ header {
             margin: 32px auto; /*distancia das margens dos outros elementos*/
             font-size: 24px; /* tamanho da fonte */
             line-height: 34px; /* espaçamento da linha do texto */
+            color: rgb(255, 0, 242);
            }
            :root{  /* iniciando a variavel*/
-            --subcor: #57a615; /* nomeando a variavel de --subcor e guardando uma cor nela.*/
+            --subcor: #000000; /* nomeando a variavel de --subcor e guardando uma cor nela.*/
            } /* Fechamento a o bloco da variavel root.*/
            .Links {
             text-align: center;
            }
          .Links a {
-            color: gold;
+            color: rgb(0, 0, 0);
             font-size: 20px;
             line-height: 30px;
             margin: 0 16px;
