@@ -84,9 +84,10 @@ header {
             }
             #linksFooter {
                 padding-top: 32px;
+                text-align: center;
             }
 
-            #linksFooter  {
+            #linksFooter a {
               padding-top: 32px;
               padding-bottom: 8px;
               border-bottom:3px solid var(--subcor);
